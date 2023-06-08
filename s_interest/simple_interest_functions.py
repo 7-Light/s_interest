@@ -1,7 +1,7 @@
 from tkinter import END
 
 
-def interest():
+def compute_interest():
     while True:
         try:
             principal = float(input("Enter the principal amount: "))
@@ -29,7 +29,7 @@ def interest():
                         break
             if s_interest:
                 break
-def principal():
+def compute_principal():
     
     while True:
         try:
@@ -66,7 +66,7 @@ def principal():
                 if ans or ans == 0:
                     break
 
-def rate():
+def compute_rate():
     while True:
         try:
             principal = float(input("Enter the principal amount: "))
@@ -102,7 +102,7 @@ def rate():
 
 
 
-def time():
+def compute_time():
     while True:
         try:
             principal = float(input("Enter the principal amount: "))

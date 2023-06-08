@@ -27,13 +27,13 @@ def simple_interest_calculation():
         response = input(
         "Enter: \n\t 'I' for the Interest \n\t 'P' for the Principal Amount \n\t 'R' for the Rate \n\t 'T' for the Time \n\t 'q' to quit.\n")
         if response.lower() == 'i':
-            interest()
+            compute_interest()
         elif response.lower() == 'p':
-            principal()
+            compute_principal()
         elif response.lower() == 'r':
-            rate()
+            compute_rate()
         elif response.lower() == 't':
-            time()
+            compute_time()
         elif response .lower()== 'q':
              break           
         else:
