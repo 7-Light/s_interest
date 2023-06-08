@@ -39,5 +39,6 @@ def simple_interest_calculation():
         else:
              print("Invalid Response!")
              
-simple_interest_calculation()
 
+if __name__ == '__main__':
+    simple_interest_calculation()
